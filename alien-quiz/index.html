@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NewQuizMaster - Fun and addictive name generator quizzes!">
+  <meta name="author" content="NewQuizMaster">
+  <title>NewQuizMaster - Fun Name Generators</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #4b0082, #8a2be2);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      background: #36005f;
+      display: flex;
+      justify-content: center;
+      padding: 0.75rem 1rem;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .quiz-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .quiz-card {
+      background: #fff;
+      color: #333;
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease;
+    }
+
+    .quiz-card:hover {
+      transform: scale(1.03);
+    }
+
+    .quiz-card a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #4b0082;
+    }
+
+    .ad-box {
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.2);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>NewQuizMaster</h1>
+    <p>Take fun quizzes and discover your hilarious alter ego!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <div class="ad-box">
+      <!-- Paste your AdSense code below -->
+      <p>[Ad goes here]</p>
+    </div>
+
+    <section class="quiz-list">
+      <div class="quiz-card">
+        <a href="alien-quiz/question1.html">👽 Alien Name Generator</a>
+      </div>
+      <div class="quiz-card">
+        <a href="hillbilly-quiz/question1.html">🤠 Hillbilly Name Generator</a>
+      </div>
+      <div class="quiz-card">
+        <a href="superhero-quiz/question1.html">🦸 Superhero Name Generator</a>
+      </div>
+      <!-- Add more quiz cards as you go -->
+    </section>
+
+    <div class="ad-box">
+      <!-- Paste your second AdSense code below -->
+      <p>[Another Ad goes here]</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 NewQuizMaster.com | All Rights Reserved
+  </footer>
+
+</body>
+</html>
